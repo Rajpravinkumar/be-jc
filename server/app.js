@@ -12,7 +12,7 @@ const app = express();
 dotenv.config();
 app.use(
   cors({
-    origin: ["https://careercompass-seven.vercel.app"],
+    origin: ["https://glittery-boba-6cc4e2.netlify.app/login"],
     methods: ["GET", "PUT", "POST", "PATCH", "DELETE"],
     credentials: true,
   })
